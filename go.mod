@@ -1,4 +1,4 @@
-module github.com/AmirhoseinMasoumi/GoProjects/DeviceUpdateManager
+module github.com/AmirhoseinMasoumi/GoProjects/UpdateHub
 
 go 1.22.3
 

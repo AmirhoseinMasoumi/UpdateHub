@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	db "github.com/AmirhoseinMasoumi/GoProjects/DeviceUpdateManager/db/sqlc"
-	"github.com/AmirhoseinMasoumi/GoProjects/DeviceUpdateManager/util"
+	db "github.com/AmirhoseinMasoumi/GoProjects/UpdateHub/db/sqlc"
+	"github.com/AmirhoseinMasoumi/GoProjects/UpdateHub/util"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/require"
 )

@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/AmirhoseinMasoumi/GoProjects/DeviceUpdateManager/util"
+	"github.com/AmirhoseinMasoumi/GoProjects/UpdateHub/util"
 	_ "github.com/lib/pq"
 )
 

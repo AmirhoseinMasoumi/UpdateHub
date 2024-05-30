@@ -11,9 +11,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	mockdb "github.com/AmirhoseinMasoumi/GoProjects/DeviceUpdateManager/db/mock"
-	db "github.com/AmirhoseinMasoumi/GoProjects/DeviceUpdateManager/db/sqlc"
-	"github.com/AmirhoseinMasoumi/GoProjects/DeviceUpdateManager/util"
+	mockdb "github.com/AmirhoseinMasoumi/GoProjects/UpdateHub/db/mock"
+	db "github.com/AmirhoseinMasoumi/GoProjects/UpdateHub/db/sqlc"
+	"github.com/AmirhoseinMasoumi/GoProjects/UpdateHub/util"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 )

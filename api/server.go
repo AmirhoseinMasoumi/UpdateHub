@@ -6,8 +6,8 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	db "github.com/AmirhoseinMasoumi/GoProjects/DeviceUpdateManager/db/sqlc"
-	"github.com/AmirhoseinMasoumi/GoProjects/DeviceUpdateManager/util"
+	db "github.com/AmirhoseinMasoumi/GoProjects/UpdateHub/db/sqlc"
+	"github.com/AmirhoseinMasoumi/GoProjects/UpdateHub/util"
 	"github.com/gin-gonic/gin"
 )
 

@@ -6,9 +6,9 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	api "github.com/AmirhoseinMasoumi/GoProjects/DeviceUpdateManager/api"
-	db "github.com/AmirhoseinMasoumi/GoProjects/DeviceUpdateManager/db/sqlc"
-	"github.com/AmirhoseinMasoumi/GoProjects/DeviceUpdateManager/util"
+	api "github.com/AmirhoseinMasoumi/GoProjects/UpdateHub/api"
+	db "github.com/AmirhoseinMasoumi/GoProjects/UpdateHub/db/sqlc"
+	"github.com/AmirhoseinMasoumi/GoProjects/UpdateHub/util"
 	"github.com/rs/zerolog"
 )
 

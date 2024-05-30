@@ -28,10 +28,13 @@ sqlc:
 	sqlc generate	
 
 mock:
-	mockgen -destination db/mock/store.go  github.com/AmirhoseinMasoumi/GoProjects/DeviceUpdateManager/db/sqlc Store
+	mockgen -destination db/mock/store.go  github.com/AmirhoseinMasoumi/GoProjects/UpdateHub/db/sqlc Store
 
 server:
 	go run main.go
 
-.PHONY: createdb dropdb migrateup migrateup1 migratedown migratedown1 sqlc mock server
+test:
+	go test -v -cover -short ./...
+	
+.PHONY: createdb dropdb migrateup migrateup1 migratedown migratedown1 sqlc mock server test
 
