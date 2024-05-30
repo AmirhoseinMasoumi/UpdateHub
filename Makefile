@@ -1,13 +1,13 @@
-DB_URL=postgresql://root:secret@localhost:5432/device_update_manager?sslmode=disable
+DB_URL=postgresql://root:secret@localhost:5432/update_hub?sslmode=disable
 
 postgres:
 	docker run --name postgres -p 5432:5432 -e POSTGRES_USER=root -e POSTGRES_PASSWORD=secret -d postgres:16-alpine
 
 createdb:
-	docker exec -it postgres createdb --username=root --owner=root device_update_manager
+	docker exec -it postgres createdb --username=root --owner=root update_hub
 
 dropdb:
-	docker exec -it postgres dropdb device_update_manager
+	docker exec -it postgres dropdb update_hub
 
 migrateup:
 	migrate -path db/migration -database "$(DB_URL)" -verbose up
